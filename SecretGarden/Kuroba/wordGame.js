@@ -1,4 +1,4 @@
-const path = "https://vibing-onion.github.io/home/SecretGarden/word_game/storage.json";
+const path = "https://vibing-onion.github.io/home/SecretGarden/Kuroba/storage.json";
 let target;
 let missPool = [];
 let wordDeck = [];
