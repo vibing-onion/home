@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kurouba</title>
+        <link rel="icon" type="image/jpg" sizes="3150x3150" href="icon.png">
+    </head>
+    <body>
+        <div>
+            <p id = "Caption">Kuroba</p>
+        </div>
+        <div id = "cardDeck" style = "display: flex; visibility: collapse;"></div>
+        <div>
+            <p style = "text-align: center;" id = "result">Guess a word</p>
+        </div>
+        <div class = "bar" id = "searchBar">
+            <input type="text" id = "userInput">
+            <button type="submit" id = "checker" onclick="check()">Enter</button>
+        </div>
+        <p style = "text-align: center;">Wrong words:</p>
+        <p id = "answer"></p>
+        <div id = "missPool"></div>
+    </body>
+    <section>
+        <link rel="stylesheet" href="format.css">
+        <script defer src="wordGame.js"></script>
+    </section>
+</html>
