@@ -1,4 +1,4 @@
-# The home page of this account
+# The home page of this account (sorry, still developing, please check the repository)
 
 https://vibing-onion.github.io/home
 
