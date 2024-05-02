@@ -3,7 +3,7 @@ let pageDescription = "A tiny playground for a computer science student explorin
 let pageDescription_ =  document.getElementById("pageDescription")
 pageDescription_.innerHTML = pageDescription
 
-const width = window.innerWidth * 1
+const width = window.innerWidth * 0.9 - 60
 const height = window.innerHeight * 0.5
 const svg = d3.select("#my_dataviz")
   .append("svg")
