@@ -26,7 +26,7 @@ const createCard = (e) => {
     title.className = 'title_link'
     title.href = linkList[e][0]
     title.innerHTML = e
-    picture.src = 'asset/photo/' + e + '.jpeg'
+    picture.src = 'SecretGarden/asset/photo/' + e + '.jpeg'
 
     card.appendChild(picture)
     card.appendChild(title)
