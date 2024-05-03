@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 
-.nav{ 
+.nav{
     background-color: black;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -20,6 +20,7 @@
 
 body,html,div,section,ul,img{
     background-color: rgb(255, 255, 255);
+    /* background-color: rgb(224, 240, 194); */
     margin: 0px;
     padding: 0px;
     text-align:center;
@@ -49,4 +50,14 @@ button{
 button:hover{
     background-color: rgb(255, 238, 172);
     color: black
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#contentbox li{
+    display: inline-block;
+    width: 100%;
 }
