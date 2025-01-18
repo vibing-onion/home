@@ -1,0 +1,72 @@
+.box{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 90%;
+    box-shadow: 1px 1px 2px 2px rgba(75, 75, 75, 0.6);
+    border-radius: 10px;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    margin: auto;
+    width: 20%;
+}
+
+body,html,div,section,ul,img{
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(224, 240, 194); */
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+li{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    width: 50%;
+}
+
+button{
+    background: none;
+    border-radius: 5px;
+    border: 0px;
+    margin: 0px;
+    padding: 8px;
+    width: 90%;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(187, 106, 0);
+}
+
+button:hover{
+    background-color: rgb(255, 238, 172);
+    color: black
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+select{
+    width: 30%;
+    height: 21px;
+    text-align: center;
+    font-size: 16px;
+    color:rgb(111, 111, 111);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contentbox li{
+    display: inline-block;
+    width: 100%;
+}
