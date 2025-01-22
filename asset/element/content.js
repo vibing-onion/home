@@ -10,7 +10,7 @@ const svg = d3.select("#my_dataviz")
     .attr("width", width)
     .attr("height", height)
 
-d3.csv("https://raw.githubusercontent.com/vibing-onion/home/main/field.csv").then( function(data) {
+d3.csv("https://raw.githubusercontent.com/vibing-onion/home/master/field.csv").then( function(data) {
 
   const color = d3.scaleOrdinal()
     .domain(["Data Science", "Computer Science", "Business", "Math"])
