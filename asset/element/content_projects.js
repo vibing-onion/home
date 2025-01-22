@@ -1,16 +1,18 @@
 const pageDescription = "The collection of every tiny idea in real life."
 const tagList = {
-    'Home Page': ['Web Development', 'Software Engineering','--'],
-    'Kuroba': ['Web Development', 'Software Engineering','--'],
-    'Stock Correlation Analysis': ['Web Development', 'Finance', 'Data Science','--'],
-    'HKUST CSE Internship': ['Software Engineering','--']
+    'Home Page': ['Web Development', 'Software Engineering'],
+    'Kuroba': ['Web Development', 'Software Engineering'],
+    'InvestorHelper': ['Web Development', 'Finance'],
+    'HKUST CSE Internship': ['Software Engineering']
 }
 
+const root_url = "https://vibing-onion.github.io/"
+
 const linkList = {
-    'Home Page': ['https://vibing-onion.github.io/home','https://github.com/vibing-onion/home'],
-    'Kuroba': ['https://vibing-onion.github.io/Kuroba/','https://github.com/vibing-onion/Kuroba'],
-    'Stock Correlation Analysis': ['https://vibing-onion.github.io/Stock-Correlation-Analysis/', 'https://github.com/vibing-onion/Stock-Correlation-Analysis'],
-    'HKUST CSE Internship': ['https://github.com/vibing-onion/HKUST-CSE-intern','https://github.com/vibing-onion/HKUST-CSE-intern']
+    'Home Page': ['home','home'],
+    'Kuroba': ['Kuroba','Kuroba'],
+    'HKUST CSE Internship': ['HKUST-CSE-intern','HKUST-CSE-intern'],
+    'InvestorHelper': ['investorHelper', 'investorHelper']
 }
 
 let pageDescription_ =  document.getElementById("pageDescription")
@@ -24,7 +26,7 @@ const createCard = (e) => {
     card.className = 'card'
     picture.className = 'card_picture'
     title.className = 'title_link'
-    title.href = linkList[e][0]
+    title.href = root_url + linkList[e][0]
     title.innerHTML = e
     picture.src = 'asset/photo/' + e + '.jpeg'
 
