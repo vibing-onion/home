@@ -6,7 +6,7 @@ const tagList = {
     'HKUST CSE Internship': ['Software Engineering']
 }
 
-const root_url = "https://vibing-onion.github.io/"
+const root_url = "https://github.com/vibing-onion/"
 
 const linkList = {
     'Home Page': ['home','home'],
