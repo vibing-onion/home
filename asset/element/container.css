@@ -18,18 +18,32 @@
 }
 
 .text1 {
-    animation-delay: 0s;
-    animation: scroll 13s linear infinite;
+    animation-delay: 2s;
+    animation: scroll 11s linear infinite;
 }
 
 .text2 {
-    animation-delay: 4s;
+    animation-delay: 1s;
     animation: scroll 8s linear infinite;
 }
 
 .text3 {
-    animation-delay: 7s;
+    animation-delay: 0s;
     animation: scroll 10s linear infinite;
+}
+.text4 {
+    animation-delay: 1s;
+    animation: scroll 9s linear infinite;
+}
+
+.text5 {
+    animation-delay: 1.5s;
+    animation: scroll 12s linear infinite;
+}
+
+.text6 {
+    animation-delay: 0.5s;
+    animation: scroll 7s linear infinite;
 }
 
 body,html,div,section,ul,img{
@@ -88,6 +102,7 @@ select{
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
+    visibility: inherit;
 }
 
 @keyframes scroll {
