@@ -18,14 +18,14 @@
     </nav>
     <body>
         <br>
-        <div class = 'box'>
-            <span style = "font-size: 50px;">Secret Garden</span>
-            <p id="pageDescription"></p>
+        <div class = 'box' id="index_head">
+            <span style = "font-size: 50px; color:white; text-shadow: 3px 3px #383838;">Secret Garden</span>
+            <br>
+            <span id="pageDescription" class = 'bg_color_text1'></span>
         </div>
-        <div style="display:flex" class="box">
-            <div class="box left" style="height: 300px">
-                <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                <div class="card-body">
+        <div style="display:flex; background-color: rgba(50, 150, 255, 0.3);" class="box">
+            <div class="box left" style="height: 300px;  padding: auto" id="index_body1">
+                <div class="card-body" style="background-color: rgba(255, 255, 255, 0.8);">
                   <h1 class="card-title">Curtis Tsang</h1>
                   <p class="card-text">BEng in Computer Science + AI</p>
                   <p class="card-text">University of HKUST</p>
@@ -33,7 +33,8 @@
                   <a href="projects.html" class="btn btn-primary">My Projects</a>
                 </div>
             </div>
-            <div id="focusBox" class="box right" style="height: 300px">
+            <div class="box right" style="height: 300px;" id="index_body2">
+                <div style=" background-color: rgba(255, 255, 255, 0);" id="focusBox"></div>
             </div>
         </div>
     </body>

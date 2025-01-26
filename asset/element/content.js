@@ -11,6 +11,8 @@ const loadFocus = () => {
     focus.innerHTML = e
     focus.className = 'scrolling-text' + ' text' + (focusArea.indexOf(e)+1)
     focus.style.lineHeight = 35 + 'px';
+    focus.style.backgroundColor = 'rgba(255, 255, 255, 0)';
+    focus.style.color = 'white';
     focusBox.appendChild(focus)
   })
 }

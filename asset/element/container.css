@@ -109,3 +109,23 @@ select{
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
 }
+
+#index_head{
+    background-image: url("../photo/mountains1.jpg");
+    background-size: cover;
+    background-position: 15% 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#index_body1{
+    background-image: url("../photo/ust.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#index_body2{
+    background-image: url("../photo/fancy.jpg");
+    background-size: cover;
+    background-position: center;
+}
