@@ -15,6 +15,11 @@ const loadFocus = () => {
     focus.style.color = 'white';
     focusBox.appendChild(focus)
   })
+
+  let leftBox = document.getElementById('index_body1')
+  let rightBox = document.getElementById('index_body2')
+  rightBox.style.height = leftBox.offsetHeight+'px';
+  focusBox.style.paddingTop = (leftBox.offsetHeight-focusBox.offsetHeight)/4 + 'px'
 }
 
 loadFocus()
