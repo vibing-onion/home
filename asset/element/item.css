@@ -22,10 +22,6 @@
     font-size: 20px;
 }
 
-.title_link:hover {
-    font-weight: bold;
-}
-
 .bg_color_text1 {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 1rem;
@@ -39,4 +35,10 @@
 
 .list-item1 {
     text-align:left; margin-top: 0px;
+}
+
+.small_badge{
+    margin-top: 5px;
+    font-size: 12px;
+    opacity: 0.8;
 }

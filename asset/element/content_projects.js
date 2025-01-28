@@ -1,22 +1,33 @@
 const pageDescription = "The collection of every tiny idea in real life."
 const tagList = {
-    'Home Page': ['Web Development', 'Software Engineering'],
-    'Kuroba': ['Web Development', 'Software Engineering'],
-    'InvestorHelper': ['Web Development', 'Finance'],
-    'HKUST CSE Internship': ['Software Engineering']
+    'Home Page': ['Web Development', 'Software Engineering','--'],
+    'Kuroba (Word Guess)': ['Web Development', 'Software Engineering','--'],
+    'InvestorHelper': ['Web Development', 'Finance','--'],
+    'HKUST CSE Internship': ['Software Engineering','--'],
+    'Student Performance': ['Data Science','--']
 }
 
 const root_url = "https://github.com/vibing-onion/"
 
 const linkList = {
     'Home Page': ['home','home'],
-    'Kuroba': ['Kuroba','Kuroba'],
+    'Kuroba (Word Guess)': ['Kuroba','Kuroba'],
     'HKUST CSE Internship': ['HKUST-CSE-intern','HKUST-CSE-intern'],
-    'InvestorHelper': ['investorHelper', 'investorHelper']
+    'InvestorHelper': ['investorHelper', 'investorHelper'],
+    'Student Performance': ['Student-Performance-MLR','Student-Performance-MLR']
 }
 
 let pageDescription_ =  document.getElementById("pageDescription")
 pageDescription_.innerHTML = pageDescription
+let tagSearch = document.getElementById('tagSearchDiv')
+tagSearch.style.backgroundColor = "rgba(255, 255, 255, 0)"
+
+const createTag = (i) => {
+    let tag = document.createElement('span')
+    tag.innerHTML = i
+    tag.className = "badge text-bg-warning small_badge"
+    return tag
+}
 
 const createCard = (e) => {
     let card = document.createElement('div')
@@ -29,15 +40,23 @@ const createCard = (e) => {
     title.href = root_url + linkList[e][0]
     title.innerHTML = e
     picture.src = 'asset/photo/' + e + '.jpeg'
+    card.style.margin = 'auto'
 
     card.appendChild(picture)
     card.appendChild(title)
+    tagList[e].forEach((i) => {
+        if(i == '--') return
+        newTag = createTag(i)
+        card.appendChild(newTag)
+    })
 
     return card;
 }
 
 const searchProjectByTag = () => {
     let loadbox = document.getElementById('loadbox')
+    loadbox.style.flexWrap = 'wrap'
+    loadbox.style.gap = '10px'
     loadbox.style.display = 'none'
     while(loadbox.firstChild){
         loadbox.firstChild.remove()
