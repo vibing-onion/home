@@ -4,7 +4,10 @@ const tagList = {
     'Kuroba (Word Guess)': ['Web Development', 'Software Engineering','--'],
     'InvestorHelper': ['Web Development', 'Finance','--'],
     'HKUST CSE Internship': ['Software Engineering','--'],
-    'Student Performance': ['Data Science','--']
+    'Student Performance': ['Data Science','--'],
+    'DevBoost': ['Software Engineering','--'],
+    'Market Breadth Dashboard': ['Software Engineering', 'Data Science','--'],
+    'WQU DataSci Lab Notes': ['Data Science','--']
 }
 
 const root_url = "https://github.com/vibing-onion/"
@@ -14,7 +17,10 @@ const linkList = {
     'Kuroba (Word Guess)': ['Kuroba','Kuroba'],
     'HKUST CSE Internship': ['HKUST-CSE-intern','HKUST-CSE-intern'],
     'InvestorHelper': ['investorHelper', 'investorHelper'],
-    'Student Performance': ['Student-Performance-MLR','Student-Performance-MLR']
+    'Student Performance': ['Student-Performance-MLR','Student-Performance-MLR'],
+    'DevBoost': ['devBoost','devBoost'],
+    'Market Breadth Dashboard': ['market_breadth', 'market_breadth'],
+    'WQU DataSci Lab Notes': ['WQU-Course','WQU-Course']
 }
 
 let pageDescription_ =  document.getElementById("pageDescription")
