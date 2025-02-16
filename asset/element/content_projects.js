@@ -45,7 +45,7 @@ const createCard = (e) => {
     title.className = 'title_link'
     title.href = root_url + linkList[e][0]
     title.innerHTML = e
-    picture.src = 'asset/photo/' + e + '.jpeg'
+    picture.src = 'https://vibingoniongithubpage.s3.ap-east-1.amazonaws.com/photo/' + e.replace(/ /g, '+') + '.jpeg'
     card.style.margin = 'auto'
 
     card.appendChild(picture)
