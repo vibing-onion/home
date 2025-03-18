@@ -3,7 +3,7 @@ const tagList = {
     'Home Page': ['Web Development', 'Software Engineering','--'],
     'Kuroba (Word Guess)': ['Web Development', 'Software Engineering','--'],
     'InvestorHelper': ['Web Development', 'Finance','--'],
-    // 'HKUST CSE Internship': ['Software Engineering','--'],
+    'HKUST CSE Internship': ['Software Engineering','--'],
     'Student Performance': ['Data Science','--'],
     'DevBoost': ['Software Engineering','--'],
     'Market Breadth Dashboard': ['Software Engineering', 'Data Science','--'],
