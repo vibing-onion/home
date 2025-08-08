@@ -4,9 +4,9 @@ const tagList = {
     'Kuroba (Word Guess)': ['Web Development', 'Software Engineering','--'],
     'InvestorHelper': ['Web Development', 'Finance','--'],
     'HKUST CSE Internship': ['Software Engineering','--'],
-    'Student Performance': ['Data Science','--'],
+    // 'Student Performance': ['Data Science','--'],
     'DevBoost': ['Software Engineering','--'],
-    'Market Breadth Dashboard': ['Software Engineering', 'Data Science','--'],
+    // 'Market Breadth Dashboard': ['Software Engineering', 'Data Science','--'],
     'WQU DataSci Lab Notes': ['Data Science','--']
 }
 
